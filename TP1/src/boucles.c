@@ -2,19 +2,23 @@
 
 int main(void)
 {
-    int compteur = 5;   /* strictement inférieur à 10 */
-    int i, j;
+    int compteur = 5;
+    int i = 1, j;
 
-    for (i = 1; i <= compteur; i++)
+    while (i <= compteur)
     {
-        for (j = 1; j <= i; j++)
+        j = 1;
+        while (j <= i)
         {
             if (i == compteur || j == 1 || j == i)
                 printf("* ");
             else
                 printf("# ");
+
+            j++;
         }
         printf("\n");
+        i++;
     }
 
     return 0;
