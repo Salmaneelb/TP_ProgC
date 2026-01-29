@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main(void)
 {
     printf("Taille des types de base en octets :\n\n");
@@ -36,4 +37,5 @@ int main(void)
 
     return 0;
 }
+
 
